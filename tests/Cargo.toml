@@ -1,0 +1,14 @@
+[package]
+name = "tests"
+version = "0.2.0"
+authors = ["Muzahir Hussain <muzahir.hussain@scytalelabs.com>"]
+edition = "2018"
+
+[dependencies]
+casper-contract = "1.1.1"
+casper-types = "1.1.1"
+casper-engine-test-support = "1.1.1"
+
+[features]
+default = ["casper-contract/std", "casper-types/std", "casper-contract/test-support"]
+
